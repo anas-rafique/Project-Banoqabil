@@ -1,0 +1,300 @@
+body {
+    font-family: Arial;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.example button:hover {
+    background: #874533;
+}
+
+.mr {
+    margin-top: 20px;
+}
+
+.bimg {
+    width: 250px;
+}
+
+.carousel-indicators {
+    position: relative;
+    left: 0%;
+    bottom: 0%;
+    width: none;
+    margin-left: 0%;
+}
+
+.carousel-indicators.carousel-indicators--thumbnails li {
+    width: 100%;
+    height: 70%;
+    border: none;
+    border-radius: 0;
+}
+
+.indimg {
+    height: 100px;
+    width: 150px;
+}
+
+.carousel-indicators.carousel-indicators--thumbnails .active .thumbnail img {
+    opacity: 0.5;
+}
+
+.carousel-control {
+    background: none;
+    opacity: -4.5;
+}
+
+.carousel-control :hover {
+    background: none;
+    opacity: -1.5;
+}
+
+.fiimg {
+    height: 280px;
+    border: groove black 1px;
+    border-radius: 50px;
+    width: 250px;
+}
+
+.card-container {
+    cursor: pointer;
+    width: 250px;
+    height: 300px;
+    position: relative;
+}
+
+.card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: 1s ease-in-out;
+    width: 100%;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.card .side {
+    backface-visibility: hidden;
+    border-radius: 6px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.card .back {
+    background: #eaeaed;
+    color: black;
+    line-height: 150px;
+    text-align: center;
+    transform: rotateY(180deg);
+    border-radius: 50px;
+}
+
+.btgroup {
+    margin-top: -40px;
+}
+
+.fashop {
+    margin-top: -40px;
+    background: green;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.fashop:hover {
+    color: white;
+    background: blue;
+}
+
+.see {
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.see a {
+    color: white;
+    font-weight: bolder;
+}
+
+.see:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: #219912;
+}
+
+.fside {
+    margin-top: 40px;
+}
+
+.icons {
+    margin: 10px;
+    margin-right: 25px;
+    color: black;
+    border: 1px white solid;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.icons:hover {
+    cursor: pointer;
+    color: white;
+    background: black;
+    border: 1px black solid;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.fhead a {
+    color: black;
+    font-size: 20px;
+}
+
+.fhead a:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.frminp1 {
+    text-align: center;
+    border: 1px solid black;
+    height: 50px;
+    border-radius: 0px;
+}
+
+.frminp2 {
+    text-align: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    color: black;
+    height: 50px;
+    background: whitesmoke;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.frminp2:hover {
+    color: white;
+    font-weight: bold;
+    background: black;
+}
+
+
+/* signupstyling */
+
+.signup {
+    background: url(images/clt.jpg)no-repeat;
+    background-size: cover;
+}
+
+#frm2div {
+    margin: 20px;
+    background: purple;
+    opacity: 0.8;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.form2 {
+    opacity: 1.0;
+}
+
+.form2 legend {
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+    color: White;
+}
+
+.icon {
+    padding: 12px;
+    background: white;
+    color: black;
+}
+
+.group2 {
+    display: flex;
+    margin: 25px;
+}
+
+.frm2inp {
+    border: none;
+    width: 300px;
+    height: 40px;
+}
+
+.frm2inp:focus {
+    border: rgb(2, 1, 1);
+}
+
+.btngrp2 {
+    text-align: center;
+    font-weight: bolder;
+    margin: 10px;
+    background: #219912;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.btngrp2 input[type="submit"]:hover {
+    color: white;
+    font-weight: bolder;
+    background: #0b7dda;
+    opacity: 0.9;
+}
+
+
+/* brand */
+
+.sp {
+    cursor: pointer;
+}
+
+
+
+.lightactive {
+    background: lightblue;
+}
+
+
+/* about us */
+
+.abtimg {
+    width: 350px;
+}
+
+.fieldset {
+    background: lightcyan;
+    padding: 10px;
+}
